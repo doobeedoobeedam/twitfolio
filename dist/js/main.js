@@ -9,7 +9,6 @@ courses.map((course) => {
             <span class="mr-4 mt-4 font-bold text-primary">#</span>
             <div class="self-center">
                 <span class="text-xs text-secondary dark:text-soft">${course.when} 
-                    ${course.proof ? `<a href="${course.proof}" class="text-primary"></a>` : '' }
                     ${course.where ? `<span class="text-primary">• ${course.where}</span>` : ''}
                 </span>
             <h1 class="font-semibold text-[14px] text-dark dark:text-primary">${course.what}</h1>
@@ -80,7 +79,7 @@ $(".mixitup-filter").click(function() {
     $(this).addClass('text-white font-semibold bg-primary rounded-t-md');
 });
 
-// Ubah tema sesuai setting sebelumnya
+// ubah tema sesuai setting sebelumnya
 if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
     document.documentElement.classList.add('dark');
 } else {

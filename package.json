@@ -1,22 +1,22 @@
 {
   "name": "citra",
   "version": "1.0.0",
-  "description": "my personal website ς(>‿&lt;.)",
+  "description": "Twitfolio",
   "main": "index.js",
   "scripts": {
     "build": "npx tailwindcss -i ./input.css -o ./dist/output.css --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/doobeedoobeedam/citra.git"
+    "url": "git+https://github.com/doobeedoobeedam/twitfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/doobeedoobeedam/citra/issues"
+    "url": "https://github.com/doobeedoobeedam/twitfolio/issues"
   },
-  "homepage": "https://github.com/doobeedoobeedam/citra#readme",
+  "homepage": "https://github.com/doobeedoobeedam/twitfolio#readme",
   "devDependencies": {
     "prettier": "^2.7.1",
     "prettier-plugin-tailwindcss": "^0.1.13",
